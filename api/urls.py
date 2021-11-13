@@ -4,8 +4,4 @@ from .views import ArticleList, ArticleDetail
 urlpatterns = [
     path('articles/', ArticleList.as_view()),
     path('articles/<int:id>/', ArticleDetail.as_view()),
-    
-    # path('articles/', article_list),
-    # path('articles/<int:pk>/', article_detail),
-
 ]
